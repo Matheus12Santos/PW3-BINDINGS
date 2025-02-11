@@ -8,5 +8,8 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'pw3-bindings';
+  title = 'Hello World!!';  
+  soma(n1: number, n2: number) {
+    return n1 + n2;
+  }
 }
